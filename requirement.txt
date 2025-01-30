@@ -1,4 +1,4 @@
 elevenlabs
-streamlit 
+streamlit
 python-dotenv
 groq
