@@ -1,8 +1,14 @@
+#Streamlit implementation for both `OPENING PART` & `CLOSING PART` 
+#Input is Hindi 
+#Input will be Elvenlabs API, Sender & Receiver Names
+#then, give the final text before generating audio
+#generate the audio
+
 import streamlit as st
 from elevenlabs import ElevenLabs
 
 # Streamlit UI
-st.title("🎙️ CloseUp Audio TTS Generator")
+st.title("🎧 CloseUp Audio TTS Generator")
 st.sidebar.header("Select an Option")
 
 # Sidebar options
